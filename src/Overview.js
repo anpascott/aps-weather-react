@@ -13,7 +13,7 @@ export default function Overview() {
             <div className="row">
               <div className="col-6">
                 <ul>
-                  <li id="date">Monday February 2, 2021</li>
+                  <li id="date">Monday February 5, 2021</li>
                   <li id="description">Cloudy</li>
                 </ul>
               </div>

@@ -13,7 +13,7 @@ function App() {
           < Weather />
     </div>
     <small id="repository">
-<a href="https://github.com/anpascott/react-weather-app.git" target="_blank">Open-source code </a>
+<a href="https://github.com/anpascott/aps-weather-react.git" target="_blank">Open-source code </a>
  by Andrea P.
 </small>
     </div>
