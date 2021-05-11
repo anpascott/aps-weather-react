@@ -9,7 +9,7 @@ export default function Form () {
     let apiKey = "54b3e201447a1afa52495e15558f28df";
     let units = "metric";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
-    // axios.get(apiUrl).then(displayWeather);
+    axios.get(apiUrl).then(displayWeather);
   }
 
   function displayWeather(response) {
