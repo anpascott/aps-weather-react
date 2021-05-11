@@ -1,5 +1,4 @@
-import Form from "./Form.js";
-import Overview from "./Overview.js";
+import React from "react";
 import Weather from "./Weather.js";
 import './App.css';
 
@@ -13,7 +12,7 @@ function App() {
           < Weather />
     </div>
     <small id="repository">
-<a href="https://github.com/anpascott/aps-weather-react.git" target="_blank">Open-source code </a>
+<a href="https://github.com/anpascott/aps-weather-react.git" target="_new">Open-source code </a>
  by Andrea P.
 </small>
     </div>

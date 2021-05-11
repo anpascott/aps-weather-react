@@ -20,15 +20,15 @@ export default function Overview() {
               <div className="col-6" id="current-temp-wrapper">
                 <span id="temp-now"> 22 </span>
                 <span className="units">
-                  <a href="#" id="celsius-link" className="active">
+                  <h3 id="celsius-link" className="active">
                     °C
-                  </a>
+                  </h3>
                   <span>|</span>
-                  <a href="#" id="fahrenheit-link">
+                  < h3 id="fahrenheit-link">
                     °F
-                  </a>
+                  </h3>
                 </span>
-                <div className="row" className="day-min-max">
+                <div className="row" id="day-min-max">
                   <div className="col-6">
                     <span className="max-temp">Max.</span>
                     <span className="max-temp" id="max-temp">

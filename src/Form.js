@@ -21,7 +21,7 @@ export default function Form () {
     setCity(event.target.value);
   }
 
-  let form = (
+  let browser = (
      <form className="mb-3" onSubmit={handleSubmit}>
         <div className="row">
           <div className="col-8">
@@ -55,7 +55,7 @@ export default function Form () {
   
 return (
     <div className="Form">
-     {form}
+     {browser}
     </div>
   );
 }
