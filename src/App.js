@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import Form from "./Form.js";
+import Overview from "./Overview.js";
+import Weather from "./Weather.js";
 import './App.css';
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container" style={{ 
+      backgroundImage: `url("https://images.theconversation.com/files/232705/original/file-20180820-30593-1nxanpj.jpg?ixlib=rb-1.1.0&q=200&auto=format&w=1000")` 
+    }}>
+          < Weather />
+    </div>
+    <small id="repository">
+<a href="https://github.com/anpascott/react-weather-app.git" target="_blank">Open-source code </a>
+ by Andrea P.
+</small>
     </div>
   );
 }
