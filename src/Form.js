@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Form.css';
-import axios from "axios";
+import axios from 'axios';
 
 export default function Form () {
   const [city, setCity] = useState("null");
@@ -14,7 +14,7 @@ export default function Form () {
   }
 
   function displayWeather(response) {
-    alert (response.data.main.temp);
+    alert (`The weather in ${city} is ${Math.round(response.data.main.temp)}°C`);
   }
 
   function updateCity(event) {
