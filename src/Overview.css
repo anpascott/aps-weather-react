@@ -1,7 +1,7 @@
 .Overview h1,
 h3,
 ul {
-  text-align: center;
+  text-align: left;
   position: relative;
 }
 .Overview h1 {
@@ -28,13 +28,9 @@ ul {
   margin-top: 20px;
 }
 
-.Overview #date {
-  text-align: center;
+.Overview .mainData {
+  text-align: left;
   font-size: 24px;
-}
-.Overview #description {
-  text-align: center;
-  font-size: 20px;
 }
 
 .Overview #current-temp-wrapper {

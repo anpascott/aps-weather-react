@@ -25,7 +25,7 @@ export default function Search () {
   let browser = (
     <div className="searchEngine">
               
-     <form className="mb-3" size="lg" placeholder="Type a City" onSubmit={handleSubmit}>
+     <form className="mb-" size="lg" placeholder="Type a City" onSubmit={handleSubmit}>
 <div className="row">
           <div className="col-8">
             <input
