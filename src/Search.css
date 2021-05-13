@@ -2,6 +2,10 @@
   padding: 15px;
 }
 
+.Form .searctBar {
+  width: 1000px;
+}
+
 .Form #current-location-button {
   font-size: 12px;
   position: relative;

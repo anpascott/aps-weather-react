@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import './Form.css';
+import './Search.css';
 import axios from 'axios';
 
-export default function Form () {
+
+export default function Search () {
   const [city, setCity] = useState("null");
 
   function handleSubmit(event) {
@@ -22,13 +23,14 @@ export default function Form () {
   }
 
   let browser = (
-     <form className="mb-3" onSubmit={handleSubmit}>
+    <div className="searchEngine">
+     <form className="mb-3" size="sm" placeholder="Type a City" onSubmit={handleSubmit}>
         <div className="row">
           <div className="col-8">
             <input
               type="search"
               placeholder="Type a city.."
-              className=""
+              className="searchBar"
               autoComplete="off"
               onChange={updateCity}
             />
@@ -37,7 +39,7 @@ export default function Form () {
             <input
               type="submit"
               value="Search"
-              class="form-control btn btn-primary shadow-sm"
+              className="form-control btn btn-primary shadow-sm"
               id="search-button"
             />
           </div>
@@ -51,10 +53,11 @@ export default function Form () {
           </div>
         </div>
       </form>
+      </div>
   );
   
 return (
-    <div className="Form">
+    <div className="searchBrowser">
      {browser}
     </div>
   );

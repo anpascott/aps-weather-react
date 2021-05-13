@@ -1,12 +1,12 @@
 import React from "react";
-import Form from "./Form.js";
+import Search from "./Search.js";
 import Overview from "./Overview.js";  
 
 export default function Weather () {
   
 return (
     <div className="Weather">
-         < Form />
+         < Search />
           < Overview />
           </div>     
 )

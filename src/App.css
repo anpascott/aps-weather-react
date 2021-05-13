@@ -1,6 +1,6 @@
-.container {
-  max-width: 800px;
-  margin-top: 50px;
+.App .container {
+  width: 3000px;
+  margin-top: 15px;
   padding: 30px 40px;
   border-radius: 10px;
   font-family: "Raleway", sans-serif;
@@ -23,18 +23,18 @@
 .min-temp-fc {
   text-align: left;
 }
-#repository {
+.App .footer {
   display: block;
   text-align: center;
   font-size: 12px;
   color: #0a4188;
   position: relative;
-  top: 60px;
+  top: 10px;
 }
 
-.fc-icon {
+/* .fc-icon {
   width: 50px;
 }
 .day-fc {
   color: rgb(182, 201, 219);
-}
+} */

@@ -11,7 +11,7 @@ function App() {
     }}>
           < Weather />
     </div>
-    <small id="repository">
+    <small className="footer">
 <a href="https://github.com/anpascott/aps-weather-react.git" target="_new">Open-source code </a>
  by Andrea P.
 </small>
