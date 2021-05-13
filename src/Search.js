@@ -24,13 +24,16 @@ export default function Search () {
 
   let browser = (
     <div className="searchEngine">
-     <form className="mb-3" size="sm" placeholder="Type a City" onSubmit={handleSubmit}>
-        <div className="row">
+              
+     <form className="mb-3" size="lg" placeholder="Type a City" onSubmit={handleSubmit}>
+<div className="row">
           <div className="col-8">
             <input
+              className=""
               type="search"
               placeholder="Type a city.."
               className="searchBar"
+              autoFocus="on"
               autoComplete="off"
               onChange={updateCity}
             />
