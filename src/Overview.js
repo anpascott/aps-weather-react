@@ -1,6 +1,8 @@
 import React, {useState} from "react";
+import FormattedDate from "./FormattedDate.js"
 import './Overview.css';
 import axios from 'axios';
+
 
 export default function Overview(props) {
 
@@ -13,11 +15,12 @@ const [weatherData, setWeatherData] = useState({ ready:false });
   function handleResponse(response){
 setWeatherData({
   ready: true,
-  description: response.data.weather[0].description,
+  sky: response.data.weather[0].description,
   temperature: Math.round(response.data.main.temp),
   humidity: Math.round(response.data.main.humidity),
   wind: Math.round(response.data.wind.speed),
   feels: Math.round(response.data.main.feels_like),
+  date: new Date(response.data.dt * 1000),
 });
   }
 
@@ -31,8 +34,11 @@ setWeatherData({
             <div className="row">
               <div className="col-6">
                 <ul className="mainData">
-                  <li id="date">Monday February 10, 2021</li>
-                  <li id="description">{weatherData.description}</li>
+                  <li className="dateLog">
+                    <FormattedDate date={weatherData.date}/>
+
+                    </li>
+                  <li className="sky"> {weatherData.sky} </li>
                 </ul>
               </div>
               <div className="col-6" id="current-temp-wrapper">

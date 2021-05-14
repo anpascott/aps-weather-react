@@ -42,7 +42,7 @@ export default function Search () {
             <input
               type="submit"
               value="Search"
-              className="form-control btn btn-primary shadow-sm"
+              className="form-control btn btn-primary shadow-xs"
               id="search-button"
             />
           </div>
@@ -50,7 +50,7 @@ export default function Search () {
             <input
               type="submit"
               value="Use Location"
-              className="form-control btn btn-success shadow-sm"
+              className="form-control btn btn-success shadow-xs"
               id="current-location-button"
             />
           </div>
