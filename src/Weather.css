@@ -1,82 +1,74 @@
-.Overview h1,
+.Weather h1,
 h3,
 ul {
   text-align: left;
   position: relative;
 }
-.Overview h1 {
+.Weather h1 {
   font-weight: bolder;
   font-size: 60px;
   color: #24285b;
   text-shadow: 5 5 5;
 }
-.Overview h3 {
+.Weather h3 {
   font-size: 14px;
   line-height: 1em;
 }
-
-.Overview li {
+.Weather li {
   list-style-type: none;
   text-transform: capitalize;
   text-align: center;
 }
-.Overview a {
+.Weather a {
   text-decoration: none;
 }
-.Overview .general-info-container {
+.Weather .general-info-container {
   padding: 15px;
   margin-top: 20px;
 }
-
-.Overview .mainData {
+.Weather .mainData {
   text-align: left;
   font-size: 24px;
 }
-
-.Overview #current-temp-wrapper {
+.Weather #current-temp-wrapper {
   text-align: center;
   position: relative;
   left: 50px;
   padding: 0px;
   margin-bottom: 0px;
 }
-
-.Overview #temp-now {
+.Weather #temp-now {
   font-size: 50px;
   text-align: center;
 }
-.Overview .units {
+.Weather .units {
   font-size: 24px;
   position: relative;
   top: -10px;
   text-decoration: none;
 }
-
-.Overview .max-temp,
+.Weather .max-temp,
 .min-temp {
   font-size: 20px;
 }
-.Overview .variable {
+.Weather .variable {
   text-align: center;
   margin-top: 0px;
   font-size: 18px;
   color: #070707;
   font-weight: 500;
 }
-
-.Overview button {
+.Weather button {
   background-color: transparent;
   border: none;
 }
-
-.Overview button .active {
+.Weather button .active {
   color: rgb(37, 36, 36);
   cursor: default;
   text-decoration: none;
   font-weight: bold;
 }
-
-.Overview button .active:hover {
+.Weather button .active:hover {
   text-decoration: none;
   color: rgb(37, 36, 36);
 }

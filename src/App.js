@@ -9,7 +9,7 @@ function App() {
       <div className="container" style={{ 
       backgroundImage: `url("https://images.theconversation.com/files/232705/original/file-20180820-30593-1nxanpj.jpg?ixlib=rb-1.1.0&q=200&auto=format&w=1000")` 
     }}>
-          < Weather />
+          < Weather defaultCity="Mexico City"/>
     </div>
     <small className="footer">
 <a href="https://github.com/anpascott/aps-weather-react.git" target="_new">Open-source code </a>
