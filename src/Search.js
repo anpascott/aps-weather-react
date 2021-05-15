@@ -32,7 +32,6 @@ export default function Search () {
               className=""
               type="search"
               placeholder="Type a city.."
-              className="searchBar"
               autoFocus="on"
               autoComplete="off"
               onChange={updateCity}

@@ -32,11 +32,10 @@ setWeatherData({
           <div className="col">
             <h1 id="city">Mexico City</h1>
             <div className="row">
-              <div className="col-6">
+              <div className="col">
                 <ul className="mainData">
                   <li className="dateLog">
                     <FormattedDate date={weatherData.date}/>
-
                     </li>
                   <li className="sky"> {weatherData.sky} </li>
                 </ul>
