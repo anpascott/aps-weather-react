@@ -1,7 +1,9 @@
 import React from "react";
 import FormattedDate from "./FormattedDate.js";
+import WeatherTemperature from "./WeatherTemperature.js";
 
 export default function WeatherInfo(props) {
+  
   return (
  <div className="WeatherInfo">
       <div className="general-info-container">
@@ -17,15 +19,7 @@ export default function WeatherInfo(props) {
                   <li className="sky"> {props.data.sky} </li>
                 </ul>
               </div>
-              <div className="col-6" id="current-temp-wrapper">
-                <span id="temp-now"> {props.data.temperature} </span>
-                <span className="units">
-                  <button variant="link" id="celsius-link" className="active"> °C </button>
-                  <span>|</span>
-                  <button variant="link" id="fahrenheit-link"> °F </button>
-                </span>
-               
-              </div>
+              <WeatherTemperature celsius={props.data.temperature} />
             </div>
           </div>
         </div>

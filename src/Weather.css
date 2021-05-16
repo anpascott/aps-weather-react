@@ -58,17 +58,11 @@ ul {
   color: #070707;
   font-weight: 500;
 }
-.Weather button {
+.WeatherTemperature .temperature {
+  font-size: 64px;
+}
+.WeatherTemperature button {
   background-color: transparent;
+  font-size: 36px;
   border: none;
-}
-.Weather button .active {
-  color: rgb(37, 36, 36);
-  cursor: default;
-  text-decoration: none;
-  font-weight: bold;
-}
-.Weather button .active:hover {
-  text-decoration: none;
-  color: rgb(37, 36, 36);
 }
