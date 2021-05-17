@@ -1,0 +1,31 @@
+.WeatherForecast {
+  background: black;
+  opacity: 0.8;
+  border: solid 1px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  margin: 8px;
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+  box-shadow: 5px 5px 8px 1px;
+}
+.max,
+.min {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  color: #fbfeff;
+}
+
+.max {
+  text-align: right;
+  font-weight: bold;
+}
+.min {
+  text-align: left;
+}
+
+.day {
+  color: rgb(182, 201, 219);
+}
