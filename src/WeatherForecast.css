@@ -10,6 +10,12 @@
   top: 20px;
   box-shadow: 5px 5px 8px 1px;
 }
+.icon {
+  display: block;
+  margin: 0 auto;
+  width: 64px;
+  color: aliceblue;
+}
 .max,
 .min {
   font-size: 14px;
