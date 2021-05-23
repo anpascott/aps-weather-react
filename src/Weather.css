@@ -73,3 +73,8 @@ ul {
   font-size: 36px;
   border: none;
 }
+.main-icon {
+  position: relative;
+  left: 30px;
+  top: 5px;
+}
