@@ -68,10 +68,12 @@ export default function WeatherIcon(props) {
 957: "strong-wind",
   };
 
+  let icon = `wi-${codeMapping[props.code]}`;
+
 return (
 <div className="WeatherIcon">
-  <i class="wi wi-night-sleet"></i>
-  {/* <i className="wi wi-{codeMapping[props.code]} /> */}
+    <i className="{icon}"></i>
+    <small>{icon}</small>
 </div>
 );
 }
